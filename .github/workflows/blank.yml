@@ -176,8 +176,8 @@ jobs:
           SCOPE: ${{ matrix.SCOPE }}
           ###### EDIT HERE ######
           KERNEL: "linux515"
-          CODE_NAME: "Qonos"
-          VERSION: "21.2"
+          CODE_NAME: "Pahvo"
+          VERSION: "21.1.1"
           #######################
         run: |                
           [ "$SCOPE" == "minimal" ] && unset SCOPE
