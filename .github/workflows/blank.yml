@@ -45,7 +45,7 @@ jobs:
         ###### EDIT HERE ######
         EDITION: [sway]
         BRANCH: [stable]
-        SCOPE: [minimal]
+        SCOPE: [full]
         #######################
     steps:
       - 
@@ -176,8 +176,8 @@ jobs:
           SCOPE: ${{ matrix.SCOPE }}
           ###### EDIT HERE ######
           KERNEL: "linux515"
-          CODE_NAME: "Pahvo"
-          VERSION: "21.1.1"
+          CODE_NAME: "Qonos"
+          VERSION: "21.2"
           #######################
         run: |                
           [ "$SCOPE" == "minimal" ] && unset SCOPE
